@@ -138,10 +138,10 @@ function moveChickenBall() {
   updatePosition();
 
   if (bounced) {
-    playSound();
 
     if (Math.random() < 0.2) { // Giving this a 20% chance just to reduce spamming
       showPiado(getNextPiado());
+      playSound();
     }
 
   }
