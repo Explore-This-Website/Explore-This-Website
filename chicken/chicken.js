@@ -139,7 +139,11 @@ function moveChickenBall() {
 
   if (bounced) {
     playSound();
-    showPiado(getNextPiado());
+
+    if (random() < 0.2) { // Giving this a 20% chance just to reduce spamming
+      showPiado(getNextPiado());
+    }
+
   }
 
   requestAnimationFrame(moveChickenBall);
