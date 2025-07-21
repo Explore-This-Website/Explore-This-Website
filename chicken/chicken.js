@@ -2,7 +2,7 @@ const chickenBall = document.getElementById('chickenBall');
 const piadoContainer = document.getElementById('piadoContainer');
 const piadoBalloon = document.getElementById('piadoBalloon');
 
-let posX = 25, posY = 25;
+let posX = 60, posY = 60;
 let speedX = 3, speedY = 3;
 let isDragging = false;
 let offsetX = 0, offsetY = 0;
