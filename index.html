@@ -1,45 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link href="style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
 
     <title>Explore This Website</title>
-</head>
-<body>
-    
-<div>
-    <p class="links"><a href="/about/">About</a></p>
-    <p class="links"><a href="/contribute/">Contribute</a></p>
-    <p class="links"><a href="https://www.interstellarshareware.net">Visit Lumen</a></p>
 
-    <div class="centerText">
-        <div style="text-align: center;">
-            <p style="font-size: xx-large; margin: 0px;">Welcome to explore this <span>website.</span></p>
-            <a href="https://github.com/Explore-This-Website/Explore-This-Website" style="text-align: center;">https://github.com/Explore-This-Website</a>
+  </head>
+  <body>
+    <div>
+      <p class="links"><a href="/about/">About</a></p>
+      <p class="links"><a href="/contribute/">Contribute</a></p>
+      <p class="links">
+        <a href="https://www.interstellarshareware.net"
+          >Visit Interstellar Shareware</a
+        >
+      </p>
+
+      <div class="centerText">
+        <div style="text-align: center">
+          <p style="font-size: xx-large; margin: 0px">
+            Welcome to explore this <span>website.</span>
+          </p>
+          <a
+            href="https://github.com/Explore-This-Website/Explore-This-Website"
+            style="text-align: center"
+            >https://github.com/Explore-This-Website</a
+          >
+
         </div>
+      </div>
     </div>
-</div>
 
-<!-- Interactive chicken ball element -->
-<div id="chickenBall"></div>
+    <!-- Interactive chicken ball element -->
+    <div id="chickenBall"></div>
 
-<!-- Hidden container holding chicken sounds (piados) -->
-<div id="piadoContainer" style="display: none;">
-    <!-- Hey, dude! Put some username of yours here (Reddit name, Instagram @, or just your name lol) -->
-    <p>u/Creepy-Sky-5679</p>
-    <p>...</p>
-    <p>The chicken was first!!</p>
-    <p>Thanks r/webdev!</p>
-</div>
+    <!-- Hidden container holding chicken sounds (piados) -->
+    <div id="piadoContainer" style="display: none">
+      <!-- Hey, dude! Put some username of yours here (Reddit name, Instagram @, or just your name lol) -->
+      <p>u/Creepy-Sky-5679</p>
+      <p>...</p>
+      <p>The chicken was first!!</p>
+      <p>Thanks r/webdev!</p>
+    </div>
 
-<!-- Visible speech balloon for displaying piados -->
-<div id="piadoBalloon"></div>
+    <!-- Visible speech balloon for displaying piados -->
+    <div id="piadoBalloon"></div>
 
-<script src="chicken/chicken.js"></script>
+    <div class="russian-roulette">
+      <span>RUSSIAN ROULETTE</span>
+      <button onclick="TryYourLuck()">
+        <img src="russian-roulette/revolver.png" alt="" />
+        <p>Try</p>
+      </button>
+    </div>
 
-
-</body>
+    <script src="chicken/chicken.js"></script>
+    <script src="russian-roulette/rr.js"></script>
+    <script src="JSLibs/p5.js"></script>
+  </body>
 </html>
