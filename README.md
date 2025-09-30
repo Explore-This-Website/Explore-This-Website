@@ -1,7 +1,7 @@
 # Explore This Website
 The repository for the Explore This Website Project
 
-Explore This Website is part open source website, part art project, and part social experiment. Created by Aidan "Lumen" Moran, Explore This Site is inspired by early bulletin boards and Multi User Dungeons (MUDs), specifically LambdaMOO, where players could enter the same text based world and alter it to their will, adding rooms, items, and NPCs. ETW hopes to recreate the creativity of MOOs and MUDs by utilizing modern website tech, open source ideas, and the *relative* ease of editing HTML.
+Explore This Website is part open source website, part art project, and part social experiment. Created by Kellen, Explore This Site is inspired by early bulletin boards and Multi User Dungeons (MUDs), specifically LambdaMOO, where players could enter the same text based world and alter it to their will, adding rooms, items, and NPCs. ETW hopes to recreate the creativity of MOOs and MUDs by utilizing modern website tech, open source ideas, and the *relative* ease of editing HTML.
 
 To contribute to Explore This Website, submit a pull request with your code. If you just want to explore, hit 'go back' and get exploring!
 
