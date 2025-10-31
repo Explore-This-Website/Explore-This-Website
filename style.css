@@ -92,4 +92,10 @@
   }
 }
 
-
+.website {
+  color: blue;
+  text-decoration: underline;
+  a:visited{
+    color: blue;
+  }
+}

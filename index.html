@@ -9,8 +9,12 @@
     <title>Explore This Website</title>
 
   </head>
-  <body>
+  <body id="body">
     <div>
+      
+      <button style="float: right; margin: 3px;" onclick="submit()">Submit</button>
+      <input style="float: right; margin: 3px;" type="text" id="inputBox" name="inputBox" />
+
       <p class="links"><a href="/about/">About</a></p>
       <p class="links"><a href="/contribute/">Contribute</a></p>
       <p class="links">
@@ -22,7 +26,7 @@
       <div class="centerText">
         <div style="text-align: center">
           <p style="font-size: xx-large; margin: 0px">
-            Welcome to explore this <span>website.</span>
+            Welcome to explore this <a class="website" href="/hall/hall.html">website.</a>
           </p>
           <a
             href="https://github.com/Explore-This-Website/Explore-This-Website"
@@ -60,5 +64,6 @@
     <script src="chicken/chicken.js"></script>
     <script src="russian-roulette/rr.js"></script>
     <script src="JSLibs/p5.js"></script>
+    <script src="submit.js"></script>
   </body>
 </html>
